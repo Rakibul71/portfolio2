@@ -1,25 +1,25 @@
-import { DiAndroid, DiTerminal } from "react-icons/di";
-import { SiJava, SiFirebase, SiGit } from "react-icons/si";
+import { DiAndroid, DiTerminal, DiJavascript, DiReact, DiWebplatform, DiGoogleCloudPlatform } from "react-icons/di";
+import { SiSolidity, SiFirebase, SiGit, SiHiveBlockchain } from "react-icons/si";
 import { RiFlutterFill } from "react-icons/ri";
 
 export const Skills = [
   {
-    slug: "android",
-    Component: DiAndroid,
-    title: "Android",
-    Description: () => <>I work on ROMs, Kernels & Android Apps using Java.</>,
+    slug: "Web-Development",
+    Component: DiWebplatform,
+    title: "Web-Development",
+    Description: () => <>I work on web development for front end using React and backend Using Express.</>,
   },
   {
-    slug: "flutter",
-    Component: RiFlutterFill,
-    title: "Flutter",
-    Description: () => <>Currently working with Dart & Flutter for app development. </>,
+    slug: "Javascript",
+    Component: DiJavascript,
+    title: "Javascript",
+    Description: () => <>Currently working on javascript algorithm and Data structure. </>,
   },
   {
-    slug: "java",
-    Component: SiJava,
-    title: "Java",
-    Description: () => <>I can code in Java. But I mainly use it for Android app development.</>,
+    slug: "Solidity",
+    Component: DiGoogleCloudPlatform,
+    title: "Solidity",
+    Description: () => <>I can code in Solidity and able to create smart contract. But I mainly use it for Dapp Development</>,
   },
   {
     slug: "terminal",

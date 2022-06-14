@@ -21,7 +21,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>&copy; 2022 <Link href="https://www.vipuljha.com">Rakibul Islam</Link> . All rights reserved.</Slogan>
+          <Slogan>&copy; 2022 <Link href="https://rakibulislam71.netlify.app/">Rakibul Islam</Link> . All rights reserved.</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons target="_blank" href="https://github.com/Rakibul71">

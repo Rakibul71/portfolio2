@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle, AiFillFacebook } from 'react-icons/ai';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
@@ -29,8 +29,8 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <a href="https://blog.vipuljha.com">
-          <NavLink>Blog</NavLink>
+        <a target="_blank" href="https://medium.com/@rakibulislam202019">
+          <NavLink >Blog</NavLink>
         </a>
       </li>
     </Div2>
@@ -41,8 +41,8 @@ const Header = () => (
       <SocialIcons target="_blank" href="https://www.linkedin.com/in/rakibul-islam71?original_referer=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frakibul-islam71">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons target="_blank" href="#">
-        <AiFillInstagram size="3rem" />
+      <SocialIcons target="_blank" href="https://www.facebook.com/photo/?fbid=2204523729862573&set=a.1961222667526015">
+        <AiFillFacebook size="3rem" />
       </SocialIcons>
       <SocialIcons target="_blank" href="#">
         <AiFillTwitterCircle size="3rem" />
